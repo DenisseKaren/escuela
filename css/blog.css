@@ -1,0 +1,53 @@
+.blog-content .foto1{
+    background: url(../img/blog1.jpg)no-repeat center;
+    background-size: cover;  
+}
+.blog-content .foto2{
+    background: url(../img/profesor_5.jpg)no-repeat center;
+    background-size: cover;  
+}
+.blog-content .foto3{
+    background: url(../img/instructor_1.jpg)no-repeat center;
+    background-size: cover;  
+}
+.blog-content{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgba(140, 140, 140, 0.16);
+}
+.blog-content .media-body p:nth-child(3){
+    margin: 5px 0;
+    text-align: justify;
+}
+.blog-content h2{
+    text-align: center;
+    font-family: "Monserrat", Arial, sans-serif;
+    font-weight: 300;
+}
+
+.blog-content .fotografia{
+    width: 250px;
+    height: 210px;
+}
+.blog-content .media-body{
+    padding: 25px 25px 10px 25px;
+}
+.media-left{
+    padding: 0;
+}
+.blog-content .btn{
+   background-color: #142750;
+    color: #fff;
+    padding: 5px 50px;
+} 
+
+.blog-content .btn:hover{
+    background-color: #1D3873;
+    color: #fff;
+}
+.blog-content time{
+    color: rgba(97, 96, 96, 0.56);
+}
+.blog-content .media-body{
+    background-color: rgba(59, 67, 76, 0.21);
+}

@@ -1,0 +1,120 @@
+.content-intro{
+	background: url(../img/dance_1.jpg) no-repeat;
+	width: 100%;
+	height: auto;
+	color: #C4C6C3;
+}
+.content-intro h1{
+	font-size: 65px;
+}
+.content-intro-text{
+	margin: 70px 0 120px 0;
+}
+.content-intro .btn{
+    background-color: #020306;
+}
+.content-intro a{
+    color: #fff;
+    text-decoration: none;
+}
+/*presentacion*/
+.content-presentation{
+	padding: 60px;
+}
+.content-presentation .btn{
+    background-color: #142750;	
+       color: #fff;
+    text-decoration: none;
+}
+.content-presentation a:hover{
+    background-color: #1D3873;
+    color: #fff;
+}
+.content-presentation a:hover{
+    color: #fff;
+}
+.content-presentation p{
+	font-size: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.decoration_1{
+	width: 120px;
+	display: inline-block;
+}
+/*intructores*/
+.content-instructores{
+	height: 310px;
+	overflow-y: hidden; /*sirve para ocultar la barra de despl vertical*/
+	position: relative;
+    text-align: center;
+}
+.instructores img{
+    float: left;
+    width: 50%;
+}
+
+.content-instructores .boton-grande{
+	position: absolute;
+	bottom: 0;
+	width: 500px;
+    display: block;
+    background-color:  #142750;
+    color:#fff;
+    padding: 2% 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+/*lema*/
+.content-lema{
+	padding: 60px 170px;
+}
+
+/*ubicacion*/
+.content-ubicacion{
+	padding: 50px 0;
+	background-color: #1A2952;
+	color: #B1BBDA;
+    }
+.xx{
+    display: table;
+      height: 300px;
+    
+}
+.yy{
+    display: table-cell;
+    height: 200px;
+    vertical-align: middle;
+}
+.content-ubicacion h4{
+	color: #fff;
+}
+/*.content-ubicacion iframe{
+	width: 100%;
+}*/
+/*contact*/
+.content-contact{
+	background: url(../img/shoes_1.jpg) no-repeat right center;
+	padding: 50px;
+}
+
+.content-contact .form-control-feedback{
+	left: 0;
+}
+.content-contact .has-feedback .form-control{
+	padding-right: 0;
+	padding-left: 42.5px;
+}
+.content-contact h2{
+	color: #172A4A;
+}
+/*footer*/
+footer{
+	background-color: #1A2952;
+	padding: 10px 10px 0 10px;
+	color: #B1BBDA;
+	font-size: 11px;
+}
+
+
+

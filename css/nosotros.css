@@ -1,0 +1,178 @@
+/**{
+	outline: 1px solid rgba(205,0,0,0.5);
+}*/
+/*header--------*/
+.main-menu{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.header h2{
+text-align: center;
+color: #142750;	
+    font-weight: 400;
+      font-family: "Montserrat",Arial,sans-serif;
+}
+.main{
+	text-align: center;
+}
+.main li{
+	
+	display: inline-block;
+	padding: 15px 30px;
+    
+}
+.main li>a{
+    display: block;
+    color: #A2A0A0;
+    text-decoration: none;
+    transition: all 0.5s;/*ver la transtion*/
+    
+}
+.header .main-menu{
+    background-color: white;
+}
+ .container{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+ /*   background: -webkit-linear-gradient(white,white, transparent); 
+    background: -o-linear-gradient(white,white, transparent); 
+    background: -moz-linear-gradient(white,white,  transparent); 
+    background: linear-gradient(white,white, transparent); 
+}*/
+/*------contenido----*/
+.contenido{
+	background: url(../img/dance_7.jpg) no-repeat;
+    background-size: 133%;
+	height: 390px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+    background-position: 0 -120px; 
+
+}
+
+
+.sobre{
+	padding: 30px;
+    text-align: center;
+	background-color: rgba(97, 96, 96, 0.56);
+	color: white;
+	width: 400px;
+	margin: 0 auto;
+    
+}
+.pilares{
+    background: url(../img/cubes.png)repeat;
+}
+.pilares-cont{
+    padding: 50px 60px;
+}
+.pilar{
+    padding: 20px;
+	text-align: center;
+    color:  rgba(97, 96, 96, 0.56);
+}
+.pilar h2{
+	border-bottom: 2px solid  rgba(97, 96, 96, 0.56);
+      font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 400;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 20px;
+}
+.instructores h2{
+    text-align: center;
+      font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 400;
+}
+.instructores li{
+list-style: none;
+    color: #142750;	
+}
+.instructores h2{
+	margin-bottom: 2%;
+	margin-top: 50px;
+     color: #142750;
+    font-weight: 400;
+}
+.pro1{
+background: url(../img/profesor_4.jpg);
+}
+.pro2{
+background: url(../img/profesor_14.jpg);
+}
+.pro3{
+background: url(../img/profesor_1.jpg);
+}
+.pro4{
+background: url(../img/profesor_10.jpg);
+}
+.pro5{
+background: url(../img/profesor_11.jpg);
+}
+.pro6{
+background: url(../img/profesor_9.jpg);
+}
+.pro7{
+background: url(../img/profesor_12.jpg);
+}
+.pro8{
+background: url(../img/profesor_15.jpg);
+}
+.pro1, .pro2, .pro3, .pro4, .pro5, .pro6, .pro7, .pro8{
+	background-size: 100%;
+    width: 100%;
+	height: 200px;
+}
+.frase{
+	background: url(../img/cubes.png) repeat;
+    background-size: 5%;
+	text-align: center;
+	font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #142750;
+
+}
+
+.contactanos{
+	background: url(../img/shoes_1.jpg)no-repeat top right;
+	background-size: 60%;
+}
+.contactanos .row{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.contactanos h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color:#142750;
+      font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 400;
+}
+.contactanos button{
+    background-color: #142750;
+    color: #fff;
+}
+.contactanos button:hover{
+    background-color: #1D3873;
+    color: #fff;
+}
+
+.contactanos .form-control-feedback {
+    left: 0;
+}
+.has-feedback .form-control{
+	padding-right: 0;
+	padding-left: 42.5px;
+}
+.footer{
+	color: white;
+	background-color:#142750;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
